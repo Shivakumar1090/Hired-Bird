@@ -34,12 +34,13 @@ const Signup = () => {
                         }}
                     >
                         <Typography component="h1" variant="h5">Sign Up</Typography>
-                        <Box component="form" noValidate  sx={{ mt: 1 }}>
+                        <Box component="form"   sx={{ mt: 1 }}>
                             <TextField
                                 margin="normal"
                                 required
                                 fullWidth
                                 id="email"
+                                type="email"
                                 label="Email Address"
                                 name="email"
                                 autoComplete="email"

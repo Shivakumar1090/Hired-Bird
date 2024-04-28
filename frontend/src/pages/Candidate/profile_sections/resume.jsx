@@ -1,7 +1,6 @@
 import { Box, Button, FormLabel, Grid, InputBase, InputLabel, Stack, TextField, Typography } from "@mui/material";
-import ClearIcon from '@mui/icons-material/Clear';
-import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
-const AboutCandidate = () => {
+
+const ResumeCandidate = () => {
     return ( 
         <Box sx={container}>
             <Grid
@@ -21,10 +20,6 @@ const AboutCandidate = () => {
                             <InputTemplate />
                             <InputTemplate />
 
-                        </Stack>
-                        <Stack direction="row" spacing={2} justifyContent="center" mt={2}>
-                            <Button variant="outlined" startIcon={<ClearIcon />}>Cancel</Button>
-                            <Button variant="contained" endIcon={<ArrowRightAltIcon />} sx={{textDecoration: 'capitalize'}}>Save</Button>
                         </Stack>
                     </Box>
                 </Grid>
@@ -49,4 +44,4 @@ const container = {
     mt: 3,
 }
  
-export default AboutCandidate;
+export default ResumeCandidate;

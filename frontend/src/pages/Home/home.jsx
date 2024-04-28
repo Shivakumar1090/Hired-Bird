@@ -32,6 +32,7 @@ const Home = () => {
                         variant="contained" 
                         color="secondary" 
                         sx={{padding: 2,color: '#fff',width: '200px'}}
+                        href="/jobs"
                     >
                         Search 
                     </Button>

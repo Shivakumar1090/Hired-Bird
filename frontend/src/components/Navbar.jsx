@@ -2,6 +2,7 @@ import { Box, Button, Stack, Tab, Tabs, Typography } from "@mui/material";
 import Logo from "./Logo";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import zIndex from "@mui/material/styles/zIndex";
 
 const Navbar = () => {
     const [currentTab, setCurrentTab] = useState("");
@@ -52,7 +53,7 @@ const Navbar = () => {
             <Stack direction='row' spacing={3} sx={{marginTop: 'auto',marginBottom: 'auto'}}>
                 <Typography component={Link} to='signup' style={{marginTop: 'auto',marginBottom: 'auto',fontSize: '16px'}}>Sign in</Typography>
                
-                <Button variant="contained" sx={btn}>Create Account</Button>
+                <Button variant="contained" sx={btn} href="signup">Create Account</Button>
             </Stack>
         </Box>
      );
@@ -62,6 +63,7 @@ const container = {
     display: 'flex',
     justifyContent: 'space-between',
     padding: 1.5,
+    zIndex: (theme) => theme.zIndex.drawer + 1 ,
 }
 
 const tab = {
@@ -74,9 +76,6 @@ const tab = {
 const btn = {
     borderRadius: '100px',
     padding: 1.5,
-    textTransform: 'capitalize',
-    letterSpacing: 0.32,
-    fontWeight: 400,
     fontSize: '16px',
 }
  

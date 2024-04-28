@@ -5,7 +5,7 @@ const Logo = () => {
         <Box>
             <Typography style={{fontWeight: 600,fontSize: '27px'}}>
                 HIRED{" "} 
-                <span style={{fontWeight: 200}}>BIRD</span>
+                <span style={{fontWeight: 200,color: '#6ED09B'}}>BIRD</span>
             </Typography>
             
         </Box>
