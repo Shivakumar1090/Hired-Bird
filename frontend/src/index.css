@@ -1,0 +1,17 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling the scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff; /* Change this to your desired track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1C294C; /* Change this to your desired thumb color */
+}
