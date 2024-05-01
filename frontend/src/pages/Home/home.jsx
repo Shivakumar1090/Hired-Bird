@@ -5,6 +5,7 @@ import GoogleIcon from "../../assets/icons/google.png";
 import AppleIcon from "../../assets/icons/apple.png";
 import ReviewsHome from "./reviews_home";
 import FooterHome from "./footer_home";
+import { Link } from "react-router-dom";
 
 const Home = () => {
     return ( 
@@ -32,7 +33,8 @@ const Home = () => {
                         variant="contained" 
                         color="secondary" 
                         sx={{padding: 2,color: '#fff',width: '200px'}}
-                        href="/jobs"
+                        component={Link}
+                        to="jobs"
                     >
                         Search 
                     </Button>

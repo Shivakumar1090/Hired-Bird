@@ -18,14 +18,14 @@ const FooterHome = () => {
         >
             <Typography variant="h3" fontWeight={500} color='#fff' gutterBottom>One step away</Typography>
             <Typography variant="body1" color='#6c7491'>What if a job platform found YOU the best jobs instead of making those in need of a job do all the work.</Typography>
-            <Link to="signup">
             <Button
                 endIcon={<ArrowRightAltIcon />}
+                component={Link}
+                to="signup"
                 sx={{width: '220px',textTransform: 'capitalize',background: '#fff',borderRadius: '50px',marginTop: '15px',padding: '10px',fontWeight: 500}}
             >   
                 Sign up 
             </Button>
-            </Link>
         </Stack>
     );
 }

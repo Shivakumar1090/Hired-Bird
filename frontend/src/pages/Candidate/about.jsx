@@ -1,6 +1,7 @@
-import { Box, Button, FormLabel, Grid, InputBase, InputLabel, Stack, TextField, Typography } from "@mui/material";
+import { Box, Button, Grid, InputBase, Stack, Typography } from "@mui/material";
 import ClearIcon from '@mui/icons-material/Clear';
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
+
 const AboutCandidate = () => {
     return ( 
         <Box sx={container}>
@@ -45,7 +46,6 @@ const InputTemplate = () => {
 const container = {
     border: '1px solid #ddd',
     padding: 2,
-   
     mt: 3,
 }
  

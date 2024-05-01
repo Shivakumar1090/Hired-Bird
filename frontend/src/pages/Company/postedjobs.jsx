@@ -11,8 +11,7 @@ const Postedjobs = () => {
     
     return ( 
         <Box >
-            <Navbar />
-            <Box sx={{width: '65%',margin: 'auto',mt: 3}}>
+            <Box sx={{width: '90%',margin: 'auto',mt: 3}}>
                 <Box mb={3} display="flex" justifyContent="space-between" alignItems="center">
                     <Typography fontWeight={500} variant="h4">Your Posted jobs</Typography>
                     <InputBase 
